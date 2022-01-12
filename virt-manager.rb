@@ -22,14 +22,13 @@ class VirtManager < Formula
   depends_on "osinfo-db"
   depends_on "py3cairo"
   depends_on "pygobject3"
-  depends_on "docutils"
   depends_on "python"
   depends_on "spice-gtk"
   depends_on "vte3"
 
   resource "libvirt-python" do
-    url "https://libvirt.org/sources/python/libvirt-python-7.3.0.tar.gz"
-    sha256 "676c260ddb365120404e611a38c514045ef1af1a7fede15c1fc02d0f8241f696"
+    url "https://libvirt.org/sources/python/libvirt-python-7.10.0.tar.gz"
+    sha256 "267774bbdf99d47515274542880499437dc94ae291771f5663c62020a62da975"
   end
 
   resource "idna" do
