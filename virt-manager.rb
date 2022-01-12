@@ -22,6 +22,7 @@ class VirtManager < Formula
   depends_on "osinfo-db"
   depends_on "py3cairo"
   depends_on "pygobject3"
+  depends_on "docutils"
   depends_on "python"
   depends_on "spice-gtk"
   depends_on "vte3"
